@@ -1,0 +1,28 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "elitagen-agent",
+  "displayName": "Elitagen",
+  "version": "0.1.0",
+  "description": "Branded Elitagen agent: multidisciplinary health & life-sciences innovation - biomedical science, AI, project management, and scientific creative production.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Draft a one-page concept note for AI-assisted literature synthesis for a clinical research team",
+    "Outline a PgMP-style program plan for a health-tech accelerator cohort",
+    "Create a storyboard brief for a 90-second oncology animation using our brand kit"
+  ],
+  "author": {
+    "name": "Elitagen",
+    "url": "https://www.elitagen.com/"
+  },
+  "homepage": "https://www.elitagen.com/",
+  "license": "Proprietary",
+  "keywords": [
+    "elitagen",
+    "life-sciences",
+    "biomedical",
+    "ai",
+    "project-management",
+    "scientific-communication",
+    "brand"
+  ]
+}
