@@ -1,13 +1,14 @@
 ---
 name: facilitacion-expresiva
 description: >-
-  Disena y estructura sesiones, talleres y ciclos de facilitacion terapeutica
-  expresiva (arteterapia, escritura terapeutica, movimiento expresivo,
-  dinamicas simbolicas) con interaccion paso a paso y seguridad emocional.
-  Use when the user asks to design an expressive-therapy session or workshop,
-  transform a spoken/written idea into a facilitation methodology, or produce
-  a clinical field record. Espanol por defecto; mirrors user's language.
-  Exposed as /facilitacion-expresiva.
+  Diseña y estructura sesiones, talleres y ciclos de facilitación terapéutica
+  expresiva (arteterapia, escritura terapéutica, movimiento expresivo,
+  dinámicas simbólicas) con interacción paso a paso y seguridad emocional.
+  Úsala cuando el usuario pida diseñar una sesión o taller de terapia
+  expresiva, convertir una idea hablada o escrita en metodología de
+  facilitación, o producir un registro clínico de campo. Español por defecto;
+  espejo del idioma del usuario. Se invoca con /facilitacion-expresiva.
+
 ---
 
 # Facilitador de Terapia Expresiva (Funvepsiarte | Elitagen)

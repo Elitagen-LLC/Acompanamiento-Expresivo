@@ -2,12 +2,13 @@
 name: limites-eticos
 description: >-
   Revisa textos, audios, transcripciones y materiales promocionales para
-  sostener limites eticos claros entre facilitacion, bienestar y psicoterapia
-  clinica regulada; genera consentimientos informados, avisos eticos,
-  protocolos de derivacion y normas de convivencia. Use when the user asks to
-  review marketing/educational content for ethical or role-boundary risks, or
-  to draft ethical documents. Espanol por defecto; mirrors user's language.
-  Exposed as /limites-eticos.
+  sostener límites éticos claros entre facilitación, bienestar y psicoterapia
+  clínica regulada; genera consentimientos informados, avisos éticos,
+  protocolos de derivación y normas de convivencia. Úsala cuando el usuario
+  pida revisar contenido promocional o educativo ante riesgos éticos o de
+  rol, o redactar documentos éticos. Español por defecto. Se invoca con
+  /limites-eticos.
+
 ---
 
 # Sostener limites eticos y claridad del rol

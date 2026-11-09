@@ -1,13 +1,14 @@
 ---
 name: smaps-intervencion
 description: >-
-  Disena intervenciones psicosociales creativas y seguras fundamentadas en la
-  piramide SMAPS / MHPSS del IASC (manual OIM), integrando metodologias
-  artisticas, educativas y comunitarias para ninos, adolescentes, adultos,
-  familias y comunidades. Use when the user asks for a psychosocial support
-  intervention, community mental-health program, or MHPSS/SMAPS design,
-  especially in emergency, displacement or community contexts. Espanol por
-  defecto; mirrors user's language. Exposed as /smaps-intervencion.
+  Diseña intervenciones psicosociales creativas y seguras fundamentadas en la
+  pirámide SMAPS/MHPSS del IASC (manual OIM), integrando metodologías
+  artísticas, educativas y comunitarias para niños, adolescentes, adultos,
+  familias y comunidades. Úsala cuando el usuario pida una intervención
+  psicosocial, un programa comunitario de salud mental o un diseño
+  SMAPS/MHPSS, sobre todo en contextos de emergencia, desplazamiento o
+  comunidad. Español por defecto. Se invoca con /smaps-intervencion.
+
 ---
 
 # Arquitecto Metodologico de Intervenciones Psicosociales Creativas (SMAPS)

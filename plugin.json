@@ -2,13 +2,13 @@
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "elitagen-agent",
   "displayName": "Elitagen",
-  "version": "0.2.0",
-  "description": "Branded Elitagen agent: multidisciplinary health & life-sciences innovation - biomedical science, AI, project management, and scientific creative production.",
+  "version": "0.3.0",
+  "description": "Agente Elitagen: innovación multidisciplinaria en ciencias de la vida - ciencias biomédicas, IA, gestión de proyectos y producción científico-creativa.",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
-    "Disena una sesion de arteterapia para adolescentes con ansiedad (paso a paso)",
-    "Revisa eticamente el flyer de mi taller de bienestar y propon correcciones",
-    "Genera el expediente completo de una intervencion SMAPS para familias desplazadas"
+    "Diseña una sesión de arteterapia para adolescentes con ansiedad (paso a paso)",
+    "Revisa éticamente el flyer de mi taller de bienestar y propón correcciones",
+    "Genera el expediente completo de una intervención SMAPS para familias desplazadas"
   ],
   "author": {
     "name": "Elitagen",

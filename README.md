@@ -1,65 +1,66 @@
 # Elitagen Agent
 
-Branded [Google Antigravity](https://antigravity.google) plugin for
-**Elitagen** and the **Funvepsiarte | Elitagen** psychosocial ecosystem -
-multidisciplinary health & life-sciences innovation.
+Plugin de marca para [Google Antigravity](https://antigravity.google) de
+**Elitagen** y el ecosistema psicosocial **Funvepsiarte | Elitagen**:
+innovación multidisciplinaria en ciencias de la salud y de la vida.
 
 **Expert Minds. Intelligent Innovation. - THINK. BUILD. EVOLVE.**
 
-## What's inside
+## Contenido
 
-### Agents (`/agents`)
+### Agentes (`/agents`)
 
-| Agent | Role |
+| Agente | Rol |
 | --- | --- |
-| `elitagen-expert` | Primary orchestrator. Multidisciplinary life-sciences innovation across Elitagen's three verticals (data governance & AI enablement, scientific & creative production, health-tech PMO). Delegates psychosocial/expressive work to the specialists below. |
-| `facilitador-expresivo` | Funvepsiarte expressive-therapy facilitator: step-by-step session/workshop/cycle design, audio-to-methodology, SMAPS field records. |
-| `arquitecto-smaps` | Community psychosocial interventions on the IASC/MHPSS (SMAPS) pyramid, backed by the OIM manual summary. |
-| `revisor-etico` | Ethical review and role-boundary clarity: facilitation/wellness vs. regulated clinical psychotherapy; consents, avisos eticos, referral protocols. |
+| `elitagen-expert` | Orquestador principal. Innovación en ciencias de la vida a través de los tres verticales de Elitagen (gobernanza de datos e IA, producción científico-creativa, PMO de tecnología sanitaria). Delega el trabajo psicosocial/expresivo en los especialistas siguientes. |
+| `facilitador-expresivo` | Facilitador de terapia expresiva Funvepsiarte: diseño paso a paso de sesiones, talleres y ciclos, audio-a-metodología, registros de campo SMAPS. |
+| `arquitecto-smaps` | Intervenciones psicosociales comunitarias sobre la pirámide IASC/MHPSS (SMAPS), con el resumen del manual OIM como fuente. |
+| `revisor-etico` | Revisión ética y claridad de rol: facilitación/bienestar vs. psicoterapia clínica regulada; consentimientos, avisos éticos, protocolos de derivación. |
 
-### Skills (`/<skill-name>`)
+### Skills (`/<nombre-de-skill>`)
 
-| Skill | What it does |
+| Skill | Qué hace |
 | --- | --- |
-| `facilitacion-expresiva` | Full Gem-ported protocol: welcome menu, one-question-at-a-time intake, input validation, 10-section session design, document generation. Reference: `references/registros-clinicos-campo.md`. |
-| `smaps-intervencion` | SMAPS intervention architecture: profile routing, active-case rules, 6-block design, 12-point matrix. Reference: `references/resumen-smaps-oim.md` (OIM 2021 summary). |
-| `limites-eticos` | Ethical-by-design review of texts/audios/materials; risk classification; ethical document drafting. |
-| `expediente-intervencion` | **New composite pipeline**: design + ethics review + operational docs + monitoring indicators in one dossier - the end-to-end deliverable that chains the three skills above. |
-| `brand-kit` | Official palette, logo usage, typography, tagline discipline, Funvepsiarte closing block, Spanish no-anglicism rule. |
+| `facilitacion-expresiva` | Protocolo completo del Gem: menú de bienvenida, recolección de una pregunta por vez, validación de entradas, diseño de sesión en 10 secciones, generación de documentos. Referencia: `references/registros-clinicos-campo.md`. |
+| `smaps-intervencion` | Arquitectura de intervenciones SMAPS: enrutado por perfil, reglas de caso activo, diseño en 6 bloques, matriz de 12 puntos. Referencia: `references/resumen-smaps-oim.md` (resumen OIM 2021). |
+| `limites-eticos` | Revisión ética de textos/audios/materiales; clasificación de riesgo; redacción de documentos éticos. |
+| `expediente-intervencion` | **Pipeline compuesto nuevo**: diseño + revisión ética + documentos operativos + indicadores de monitoreo en un solo expediente - el entregable integral que encadena las tres skills anteriores. |
+| `brand-kit` | Paleta oficial, uso de logos, tipografía, disciplina de tagline, cierre corporativo Funvepsiarte, regla de español sin anglicismos. |
 
-### Rule
+### Regla
 
-`rules/AGENTS.md` (always-on): brand voice, multilingual discipline, and
-compliance & ethics guardrails - HIPAA, GDPR, HITECH, CCPA/CPRA,
-ISO/IEC 27001, EU AI Act, NIST AI RMF, ISO/IEC 42001, OECD AI; no fabricated
-citations; facilitation is never presented as clinical psychotherapy.
+`rules/AGENTS.md` (siempre activa): voz de marca, disciplina multilingüe y
+guardarraíles de cumplimiento y ética - HIPAA, GDPR, HITECH, CCPA/CPRA,
+ISO/IEC 27001, Ley de IA de la UE, NIST AI RMF, ISO/IEC 42001, OCDE; sin
+citas fabricadas; la facilitación nunca se presenta como psicoterapia
+clínica.
 
-## Try it locally
+## Probar localmente
 
 ```bash
 agy plugin validate --strict ./elitagen-agent
 agy plugin install ./elitagen-agent
 
-# then in chat:
-/agents                    # pick elitagen-expert, facilitador-expresivo, ...
-/facilitacion-expresiva    # or jump straight into a skill
-/expediente-intervencion   # full documented intervention pipeline
+# luego en el chat:
+/agents                    # elige elitagen-expert, facilitador-expresivo, ...
+/facilitacion-expresiva    # o entra directo a una skill
+/expediente-intervencion   # pipeline de intervención documentada completa
 ```
 
-Or copy this folder to `~/.gemini/config/plugins/elitagen-agent/` and restart
-the app.
+O copia esta carpeta a `~/.gemini/config/plugins/elitagen-agent/` y reinicia
+la app.
 
-## Roadmap
+## Hoja de ruta
 
-- **MCP server** (`mcp_config.json`) - literature search, project tracker,
-  brand asset CDN.
-- **Lifecycle hooks** (`hooks.json`) - e.g. a `Stop` hook that forces the
-  ethics review (`limites-eticos`) before delivering therapy-adjacent
-  documents.
-- **More Gems** - remaining reference assistants can be ported as additional
-  skills/subagents using the same pattern.
+- **Servidor MCP** (`mcp_config.json`) - búsqueda de literatura, tracker de
+  proyectos, CDN de activos de marca.
+- **Hooks de ciclo de vida** (`hooks.json`) - p. ej. un hook `Stop` que fuerce
+  la revisión ética (`limites-eticos`) antes de entregar documentos
+  terapéuticos.
+- **Más Gems** - los asistentes de referencia restantes se pueden portar como
+  skills/subagentes adicionales con el mismo patrón.
 
-## Requirements
+## Requisitos
 
-- Antigravity App or CLI (`agy`)
-- No API keys, no network access, no external services
+- App o CLI de Antigravity (`agy`)
+- Sin claves de API, sin acceso a red, sin servicios externos

@@ -1,66 +1,74 @@
 ---
 name: brand-kit
 description: >-
-  Apply Elitagen's visual identity and voice to any deliverable - decks,
-  documents, web pages, scripts, one-pagers, or data visualizations. Use when
-  the user asks for something "on brand", branded material, a client-facing
-  artifact, or references Elitagen colors/logos/tagline. Exposed as
-  /brand-kit.
+  Aplica la identidad visual y la voz de Elitagen a cualquier entregable:
+  presentaciones, documentos, páginas web, guiones, one-pagers o
+  visualizaciones de datos. Úsala cuando el usuario pida algo "en marca",
+  material con marca, un artefacto para clientes, o mencione los
+  colores/logos/tagline de Elitagen. Incluye el cierre corporativo
+  Funvepsiarte | Elitagen. Se invoca con /brand-kit.
 ---
 
-# Elitagen Brand Kit
+# Kit de marca Elitagen
 
-Load this skill before producing ANY deliverable an Elitagen client or
-partner might see.
+Carga esta skill antes de producir CUALQUIER entregable que un cliente o
+aliado de Elitagen pueda ver.
 
-## 1. Color palette (extracted from the official mark)
+## 1. Paleta de colores (extraída de la marca oficial)
 
-| Role | Hex | Usage |
+| Rol | Hex | Uso |
 | --- | --- | --- |
-| Deep Navy | `#020345` | Primary dark anchor, headings, dark-mode canvases |
-| Royal Blue | `#0C57A8` | Primary brand blue, key accents, links |
-| Steel Blue | `#305090` | Secondary structure, borders, charts |
-| Cyan | `#31A9DC` | Energy accent, highlights, data emphasis |
-| Sky Cyan | `#63C6EB` | Gradients and lighter accents paired with Cyan |
-| Pale Lavender | `#AEBAEF` | Light accent, fills, subtle backgrounds |
-| Ice | `#C0D0F0` | Soft background tint |
-| White | `#FFFFFF` | Negative space, text on dark |
+| Azul marino profundo | `#020345` | Ancla oscuro principal, titulares, lienzos oscuros |
+| Azul real | `#0C57A8` | Azul de marca, acentos clave, enlaces |
+| Azul acero | `#305090` | Estructura secundaria, bordes, gráficos |
+| Cian | `#31A9DC` | Acento de energía, énfasis de datos |
+| Cian cielo | `#63C6EB` | Degradados y acentos claros junto al cian |
+| Lavanda pálido | `#AEBAEF` | Acento claro, rellenos, fondos sutiles |
+| Hielo | `#C0D0F0` | Tinte de fondo suave |
+| Blanco | `#FFFFFF` | Espacio negativo, texto sobre oscuro |
 
-Gradients in the brand move *within* one family (e.g. `#63C6EB -> #008CCB`),
-not across unrelated hues. Dark UIs sit on Deep Navy, not pure black.
+Los degradados de la marca se mueven *dentro* de una misma familia (p. ej.
+`#63C6EB -> #008CCB`), no entre tonos sin relación. Las interfaces oscuras se
+apoyan en azul marino profundo, no en negro puro.
 
 ## 2. Logos
 
-- Bundled symbol: `${PLUGIN_ROOT}/assets/logo.png` - the four-lobed Elitagen
-  pinwheel on transparent background (1:1). Keep its transparent padding;
-  never crop, recolor, stretch, or place it on busy imagery.
-- Full logo library (lockups, banners, mono variants) lives in the project
-  repository in the marketing-logos folder (`06_Logos ... Elitagen_Funvepsiarte`):
-  `main_logo.png` (light backgrounds), `main_logo_dark.png` (dark royal-blue
-  background variant), `mono_main_white_logo.png` (monochrome),
-  `*_banner_left_*` (wide lockups), `elitagen_text_blue_font.svg` (wordmark).
+- Símbolo incluido: `${PLUGIN_ROOT}/assets/logo.png` - el molinete de cuatro
+  lóbulos de Elitagen sobre fondo transparente (1:1). Conserva su margen
+  transparente; nunca lo recortes, recolorees, deformes ni lo pongas sobre
+  imágenes cargadas.
+- Biblioteca completa de logos (lockups, banners, variantes monocromáticas)
+  en el repositorio del proyecto, carpeta de mercadeo
+  (`06_Logos ... Elitagen_Funvepsiarte`):
+  `main_logo.png` (fondos claros), `main_logo_dark.png` (variante sobre fondo
+  azul real oscuro), `mono_main_white_logo.png` (monocromo),
+  `*_banner_left_*` (lockups anchos), `elitagen_text_blue_font.svg`
+  (wordmark).
 
-## 3. Typography & layout
+## 3. Tipografía y maquetación
 
-- Modern geometric sans-serif; clean, generous white space, minimal
-  ornamentation. (The exact site font is not bundled; default to Inter or
-  Helvetica Neue for derivative digital assets - confirm with the team before
-  print.)
-- Section rhythm on the site: eyebrow label -> large statement headline ->
-  short supporting paragraph. Numbered capability blocks (I, II, III).
-- Tagline discipline: **"Expert Minds. Intelligent Innovation."** and the
-  **THINK. BUILD. EVOLVE.** triad. Never alter the wording, translation, or
-  casing.
+- Sans-serif geométrica moderna; abundante espacio en blanco, ornamentación
+  mínima. (La fuente exacta del sitio no está incluida; usa Inter o Helvetica
+  Neue por defecto en activos digitales derivados - confirma con el equipo
+  antes de imprimir.)
+- Ritmo de secciones del sitio: etiqueta superior -> titular de declaración
+  grande -> párrafo breve de apoyo. Bloques de capacidades numerados
+  (I, II, III).
+- Disciplina de tagline: **"Expert Minds. Intelligent Innovation."** y la
+  tríada **THINK. BUILD. EVOLVE.** Nunca alteres la redacción, la traducción
+  ni las mayúsculas.
 
-## 4. Voice checklist for deliverables
+## 4. Lista de voz para entregables
 
-1. Expert and direct - no hype, no filler adjectives.
-2. Multilingual-ready - idiomatic phrasing, not literal translation.
-3. Compliance-aware - see `rules/AGENTS.md`; include review notes where a
-   factor touches clinical or patient data.
-4. Multidisciplinary framing - name the disciplines a solution converges.
+1. Experto y directo - sin exageración, sin adjetivos de relleno.
+2. Listo para multilingüe - fraseo idiomático, no traducción literal. En
+   español, sin anglicismos.
+3. Consciente del cumplimiento - ver `rules/AGENTS.md`; incluye notas de
+   revisión cuando el contenido toque temas clínicos o datos de pacientes.
+4. Enfoque multidisciplinario - nombra las disciplinas que convergen en cada
+   solución.
 
-## 5. Quick HTML/Markdown deliverable defaults
+## 5. Valores por defecto para entregables HTML/Markdown
 
 ```css
 :root {
@@ -74,21 +82,22 @@ not across unrelated hues. Dark UIs sit on Deep Navy, not pure black.
 }
 ```
 
-Headings: Deep Navy (or White on dark). Accent underline/buttons: Cyan.
-Body text: Steel-family greys derived from `#305090`.
+Titulares: azul marino profundo (o blanco sobre oscuro). Subrayados/botones
+de acento: cian. Texto de cuerpo: grises de la familia acero derivados de
+`#305090`.
 
 ## 6. Cierre corporativo Funvepsiarte | Elitagen
 
-Los asistentes del ecosistema psicosocial (facilitacion expresiva, SMAPS,
-limites eticos) cierran interacciones con este bloque centrado:
+Los asistentes del ecosistema psicosocial (facilitación expresiva, SMAPS,
+límites éticos) cierran las interacciones con este bloque centrado:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
       FUNVEPSIARTE | ELITAGEN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Gracias por compartir este proceso terapeutico y creativo y por confiar en
-este espacio de acompanamiento profesional.
+Gracias por compartir este proceso terapéutico y creativo y por confiar en
+este espacio de acompañamiento profesional.
 
 Espero que esta estructura contribuya a crear experiencias:
 - claras
@@ -103,5 +112,5 @@ Variante psicosocial del texto de cierre: "Gracias por compartir este proceso
 psicosocial y creativo. Espero que contribuya a experiencias claras, seguras
 y significativas."
 
-En espanol NUNCA uses anglicismos: "aviso etico" o "descargo de
+En español NUNCA uses anglicismos: "aviso ético" o "descargo de
 responsabilidad", no "disclaimer".

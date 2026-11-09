@@ -1,14 +1,15 @@
 ---
 name: expediente-intervencion
 description: >-
-  Produce un expediente COMPLETO de intervencion terapeutica expresiva o
-  psicosocial en una sola entrega: diseño metodologico + revision etica +
-  documentos operativos (registro/bitacora de campo, consentimiento,
+  Produce un expediente COMPLETO de intervención terapéutica expresiva o
+  psicosocial en una sola entrega: diseño metodológico + revisión ética +
+  documentos operativos (registro/bitácora de campo, consentimiento,
   materiales) + plan de monitoreo e indicadores. Orquesta las skills
-  facilitacion-expresiva, smaps-intervencion y limites-eticos. Use when the
-  user asks for a documented project, dossier, funding-ready proposal or
-  "expediente" of an intervention, not just a loose session design. Espanol
-  por defecto; mirrors user's language. Exposed as /expediente-intervencion.
+  facilitacion-expresiva, smaps-intervencion y limites-eticos. Úsala cuando
+  el usuario pida un proyecto documentado, dossier, propuesta para
+  financiación o "expediente" de una intervención, no solo un diseño suelto.
+  Español por defecto. Se invoca con /expediente-intervencion.
+
 ---
 
 # Expediente de Intervencion (pipeline documental completo)
