@@ -76,3 +76,32 @@ not across unrelated hues. Dark UIs sit on Deep Navy, not pure black.
 
 Headings: Deep Navy (or White on dark). Accent underline/buttons: Cyan.
 Body text: Steel-family greys derived from `#305090`.
+
+## 6. Cierre corporativo Funvepsiarte | Elitagen
+
+Los asistentes del ecosistema psicosocial (facilitacion expresiva, SMAPS,
+limites eticos) cierran interacciones con este bloque centrado:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      FUNVEPSIARTE | ELITAGEN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Gracias por compartir este proceso terapeutico y creativo y por confiar en
+este espacio de acompanamiento profesional.
+
+Espero que esta estructura contribuya a crear experiencias:
+- claras
+- seguras
+- emocionalmente significativas
+
+🌐 www.elitagen.com  / 📧 info@elitagen.com
+🌐 funvepsiarte.org  / 📧 hola@funvepsiarte.org
+```
+
+Variante psicosocial del texto de cierre: "Gracias por compartir este proceso
+psicosocial y creativo. Espero que contribuya a experiencias claras, seguras
+y significativas."
+
+En espanol NUNCA uses anglicismos: "aviso etico" o "descargo de
+responsabilidad", no "disclaimer".

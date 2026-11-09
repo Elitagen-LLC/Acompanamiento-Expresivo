@@ -1,51 +1,65 @@
 # Elitagen Agent
 
 Branded [Google Antigravity](https://antigravity.google) plugin for
-**Elitagen** - the global multilingual ecosystem where medicine, science,
-technology, and creative design converge.
+**Elitagen** and the **Funvepsiarte | Elitagen** psychosocial ecosystem -
+multidisciplinary health & life-sciences innovation.
 
 **Expert Minds. Intelligent Innovation. - THINK. BUILD. EVOLVE.**
 
 ## What's inside
 
-| Component | File | What it does |
-| --- | --- | --- |
-| Custom agent | `agents/elitagen-expert.md` | Multidisciplinary life-sciences innovation agent covering Elitagen's three verticals (data governance & AI enablement, scientific & creative production, health-tech program management). Selectable as primary via `/agents`, also delegatable as a subagent. |
-| Always-on rule | `rules/AGENTS.md` | Brand voice (tone, multilingual discipline) plus compliance & ethics guardrails - HIPAA, GDPR, HITECH, CCPA/CPRA, ISO/IEC 27001, EU AI Act, NIST AI RMF, ISO/IEC 42001, OECD AI. No fabricated citations, no medical advice. |
-| Skill | `skills/brand-kit/SKILL.md` | Official palette (hex), logo usage, typography guidance, tagline discipline, and voice checklist. Feed it to any deliverable that a client or partner will see. Invoke with `/brand-kit`. |
-| Logo | `assets/logo.png` | 1:1 brand mark bundled for the Marketplace card. |
+### Agents (`/agents`)
+
+| Agent | Role |
+| --- | --- |
+| `elitagen-expert` | Primary orchestrator. Multidisciplinary life-sciences innovation across Elitagen's three verticals (data governance & AI enablement, scientific & creative production, health-tech PMO). Delegates psychosocial/expressive work to the specialists below. |
+| `facilitador-expresivo` | Funvepsiarte expressive-therapy facilitator: step-by-step session/workshop/cycle design, audio-to-methodology, SMAPS field records. |
+| `arquitecto-smaps` | Community psychosocial interventions on the IASC/MHPSS (SMAPS) pyramid, backed by the OIM manual summary. |
+| `revisor-etico` | Ethical review and role-boundary clarity: facilitation/wellness vs. regulated clinical psychotherapy; consents, avisos eticos, referral protocols. |
+
+### Skills (`/<skill-name>`)
+
+| Skill | What it does |
+| --- | --- |
+| `facilitacion-expresiva` | Full Gem-ported protocol: welcome menu, one-question-at-a-time intake, input validation, 10-section session design, document generation. Reference: `references/registros-clinicos-campo.md`. |
+| `smaps-intervencion` | SMAPS intervention architecture: profile routing, active-case rules, 6-block design, 12-point matrix. Reference: `references/resumen-smaps-oim.md` (OIM 2021 summary). |
+| `limites-eticos` | Ethical-by-design review of texts/audios/materials; risk classification; ethical document drafting. |
+| `expediente-intervencion` | **New composite pipeline**: design + ethics review + operational docs + monitoring indicators in one dossier - the end-to-end deliverable that chains the three skills above. |
+| `brand-kit` | Official palette, logo usage, typography, tagline discipline, Funvepsiarte closing block, Spanish no-anglicism rule. |
+
+### Rule
+
+`rules/AGENTS.md` (always-on): brand voice, multilingual discipline, and
+compliance & ethics guardrails - HIPAA, GDPR, HITECH, CCPA/CPRA,
+ISO/IEC 27001, EU AI Act, NIST AI RMF, ISO/IEC 42001, OECD AI; no fabricated
+citations; facilitation is never presented as clinical psychotherapy.
 
 ## Try it locally
 
 ```bash
-# from the Antigravity CLI:
-agy plugin validate --strict ./elitagen-agent   # 0 errors, 0 warnings
+agy plugin validate --strict ./elitagen-agent
 agy plugin install ./elitagen-agent
-agy plugin list
 
 # then in chat:
-/agents                # select "elitagen-expert" as the primary agent
-/brand-kit             # load the brand kit for a branded deliverable
+/agents                    # pick elitagen-expert, facilitador-expresivo, ...
+/facilitacion-expresiva    # or jump straight into a skill
+/expediente-intervencion   # full documented intervention pipeline
 ```
 
-In the Antigravity App the plugin appears under
-**Customizations > Installed** with three starter-prompt chips.
+Or copy this folder to `~/.gemini/config/plugins/elitagen-agent/` and restart
+the app.
 
-## Scaffold status & next steps
+## Roadmap
 
-This is a foundation to build on. Intended extension points:
-
-- **Vertical subagents** - split `elitagen-expert` into focused read-only
-  specialists (e.g. `data-governance-advisor`, `sci-creative-producer`,
-  `healthtech-pmo`) that the primary agent delegates to.
-- **Capability skills** - one skill per repeatable deliverable type
-  (`concept-note`, `storyboard-brief`, `program-plan`, `ai-readiness-review`).
-- **MCP server** (`mcp_config.json`) - wire live data sources
-  (project tracker, literature search, brand asset CDN) once endpoints exist.
-- **Lifecycle hooks** (`hooks.json`) - e.g. a `Stop` hook that appends the
-  compliance reviewer note on clinical-adjacent outputs.
+- **MCP server** (`mcp_config.json`) - literature search, project tracker,
+  brand asset CDN.
+- **Lifecycle hooks** (`hooks.json`) - e.g. a `Stop` hook that forces the
+  ethics review (`limites-eticos`) before delivering therapy-adjacent
+  documents.
+- **More Gems** - remaining reference assistants can be ported as additional
+  skills/subagents using the same pattern.
 
 ## Requirements
 
-- Antigravity App or CLI (`agy`) for install/validate
+- Antigravity App or CLI (`agy`)
 - No API keys, no network access, no external services

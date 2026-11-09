@@ -2,13 +2,13 @@
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "elitagen-agent",
   "displayName": "Elitagen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Branded Elitagen agent: multidisciplinary health & life-sciences innovation - biomedical science, AI, project management, and scientific creative production.",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
-    "Draft a one-page concept note for AI-assisted literature synthesis for a clinical research team",
-    "Outline a PgMP-style program plan for a health-tech accelerator cohort",
-    "Create a storyboard brief for a 90-second oncology animation using our brand kit"
+    "Disena una sesion de arteterapia para adolescentes con ansiedad (paso a paso)",
+    "Revisa eticamente el flyer de mi taller de bienestar y propon correcciones",
+    "Genera el expediente completo de una intervencion SMAPS para familias desplazadas"
   ],
   "author": {
     "name": "Elitagen",
@@ -18,11 +18,15 @@
   "license": "Proprietary",
   "keywords": [
     "elitagen",
+    "funvepsiarte",
     "life-sciences",
     "biomedical",
     "ai",
     "project-management",
     "scientific-communication",
+    "smaps",
+    "arteterapia",
+    "ethics",
     "brand"
   ]
 }
