@@ -39,9 +39,11 @@ oscuras se apoyan en azul marino, no en negro puro.
 
 ## 3. Logos
 
-- `${PLUGIN_ROOT}/assets/logo.svg` - wordmark Funvepsiarte (tricolor),
-  encuadrado 1:1 con margen transparente. Nunca lo recortes, recolorees ni
-  deformes.
+- `${PLUGIN_ROOT}/assets/logo.svg` - icono genérico del asistente
+  (1:1, neutro de marca). Para piezas de marca Funvepsiarte usa el
+  wordmark oficial disponible en funvepsiarte.org (tricolor
+  `#0133AB` / `#CF142B` / `#FFCC00`); nunca lo recortes, recolorees
+  ni deformes.
 - `${PLUGIN_ROOT}/assets/logo.png` - símbolo Elitagen (molinete de cuatro
   lóbulos, 1:1 transparente). Úsalo solo como marca de crédito ("desarrollado
   por Elitagen") o co-marca técnica.

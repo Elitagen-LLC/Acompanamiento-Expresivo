@@ -1,9 +1,10 @@
-# Funvepsiarte
+# Acompañamiento Expresivo
 
-Asistente para [Google Antigravity](https://antigravity.google) de
-**Funvepsiarte** - fundación sin fines de lucro que integra psicología,
-artes, estética, creatividad y terapias expresivas, combinando investigación
-científica rigurosa con práctica clínica, educativa, social y organizacional.
+Asistente de [Google Antigravity](https://antigravity.google) para
+facilitación terapéutica expresiva, intervenciones psicosociales y revisión
+ética profesional. Desarrollado sobre la metodología de
+**[Funvepsiarte](https://funvepsiarte.org/)**, fundación sin fines de lucro
+que integra psicología, artes, estética, creatividad y terapias expresivas.
 
 **Arte, estética y creatividad para la expresión.**
 
@@ -54,8 +55,8 @@ te ayuda a trabajar con coherencia metodológica y límites éticos claros:
 ## Probar localmente
 
 ```bash
-agy plugin validate --strict ./funvepsiarte
-agy plugin install ./funvepsiarte
+agy plugin validate --strict ./acompanamiento-expresivo
+agy plugin install ./acompanamiento-expresivo
 
 # luego en el chat:
 /agents                    # elige coordinador-expresivo o un especialista
@@ -63,7 +64,7 @@ agy plugin install ./funvepsiarte
 /expediente-intervencion   # expediente completo
 ```
 
-O copia esta carpeta a `~/.gemini/config/plugins/funvepsiarte/` y reinicia la
+O copia esta carpeta a `~/.gemini/config/plugins/acompanamiento-expresivo/` y reinicia la
 app.
 
 ## Requisitos

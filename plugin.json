@@ -1,8 +1,8 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
-  "name": "funvepsiarte",
-  "displayName": "Funvepsiarte",
-  "version": "0.4.0",
+  "name": "acompanamiento-expresivo",
+  "displayName": "Acompañamiento Expresivo",
+  "version": "0.5.0",
   "description": "Para facilitadores, terapeutas y educadores: diseña sesiones de terapia expresiva, intervenciones psicosociales SMAPS, revisiones éticas y expedientes.",
   "logo": "assets/logo.svg",
   "suggestedPrompts": [
@@ -14,7 +14,7 @@
     "name": "Elitagen",
     "url": "https://www.elitagen.com/"
   },
-  "homepage": "https://funvepsiarte.org/",
+  "homepage": "https://www.elitagen.com/",
   "license": "Proprietary",
   "keywords": [
     "funvepsiarte",
