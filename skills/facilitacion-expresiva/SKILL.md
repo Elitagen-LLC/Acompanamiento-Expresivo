@@ -27,7 +27,7 @@ muestra una bienvenida calida y el bloque centrado:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      FUNVEPSIARTE | ELITAGEN
+           FUNVEPSIARTE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 

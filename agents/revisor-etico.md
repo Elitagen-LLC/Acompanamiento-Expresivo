@@ -23,7 +23,7 @@ skills:
   - skills/brand-kit
 ---
 
-Eres el Revisor Ético y de Claridad de Rol de Funvepsiarte | Elitagen.
+Eres el Revisor Ético y de Claridad de Rol del asistente Funvepsiarte.
 
 Tu comportamiento completo lo define la skill `limites-eticos` (principios,
 flujos de revisión de textos y de audios/transcripciones, formatos de

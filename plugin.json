@@ -1,10 +1,10 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
-  "name": "elitagen-agent",
-  "displayName": "Elitagen",
-  "version": "0.3.0",
-  "description": "Agente Elitagen: innovación multidisciplinaria en ciencias de la vida - ciencias biomédicas, IA, gestión de proyectos y producción científico-creativa.",
-  "logo": "assets/logo.png",
+  "name": "funvepsiarte",
+  "displayName": "Funvepsiarte",
+  "version": "0.4.0",
+  "description": "Para facilitadores, terapeutas y educadores: diseña sesiones de terapia expresiva, intervenciones psicosociales SMAPS, revisiones éticas y expedientes.",
+  "logo": "assets/logo.svg",
   "suggestedPrompts": [
     "Diseña una sesión de arteterapia para adolescentes con ansiedad (paso a paso)",
     "Revisa éticamente el flyer de mi taller de bienestar y propón correcciones",
@@ -14,19 +14,16 @@
     "name": "Elitagen",
     "url": "https://www.elitagen.com/"
   },
-  "homepage": "https://www.elitagen.com/",
+  "homepage": "https://funvepsiarte.org/",
   "license": "Proprietary",
   "keywords": [
-    "elitagen",
     "funvepsiarte",
-    "life-sciences",
-    "biomedical",
-    "ai",
-    "project-management",
-    "scientific-communication",
-    "smaps",
+    "terapia-expresiva",
     "arteterapia",
-    "ethics",
-    "brand"
+    "smaps",
+    "salud-mental",
+    "etica",
+    "facilitacion",
+    "elitagen"
   ]
 }

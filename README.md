@@ -1,64 +1,70 @@
-# Elitagen Agent
+# Funvepsiarte
 
-Plugin de marca para [Google Antigravity](https://antigravity.google) de
-**Elitagen** y el ecosistema psicosocial **Funvepsiarte | Elitagen**:
-innovación multidisciplinaria en ciencias de la salud y de la vida.
+Asistente para [Google Antigravity](https://antigravity.google) de
+**Funvepsiarte** - fundación sin fines de lucro que integra psicología,
+artes, estética, creatividad y terapias expresivas, combinando investigación
+científica rigurosa con práctica clínica, educativa, social y organizacional.
 
-**Expert Minds. Intelligent Innovation. - THINK. BUILD. EVOLVE.**
+**Arte, estética y creatividad para la expresión.**
 
-## Contenido
+Desarrollado por [Elitagen](https://www.elitagen.com/) en alianza con
+[Funvepsiarte](https://funvepsiarte.org/).
 
-### Agentes (`/agents`)
+## Qué hace por ti
+
+Si eres facilitador, terapeuta, coach expresivo, educador, cuidador o
+profesional del bienestar, este asistente te ahorra horas de planificación y
+te ayuda a trabajar con coherencia metodológica y límites éticos claros:
+
+1. **Diseña sesiones, talleres y ciclos expresivos** - arteterapia, escritura
+   terapéutica, movimiento expresivo, dinámicas simbólicas. Te pregunta paso
+   a paso y entrega la estructura completa: objetivo, apertura, actividad,
+   reflexión, cierre y adaptaciones.
+2. **Estructura tus ideas habladas** - convierte audios y transcripciones en
+   metodologías claras, planes de sesión, guiones y bitácoras.
+3. **Diseña intervenciones psicosociales** - programas comunitarios sobre la
+   pirámide SMAPS/MHPSS del IASC, fundamentados en el manual OIM, con
+   indicadores, salvaguardas y criterios de derivación.
+4. **Cuida tu ética profesional** - revisa tus textos, flyers, webs y audios
+   para que la facilitación nunca se confunda con psicoterapia clínica;
+   clasifica el riesgo y redacta consentimientos, avisos éticos y protocolos
+   de derivación.
+5. **Entrega expedientes completos** - diseño + revisión ética + documentos
+   operativos + plan de monitoreo en un solo documento, listo para presentar.
+
+## Agentes (`/agents`)
 
 | Agente | Rol |
 | --- | --- |
-| `elitagen-expert` | Orquestador principal. Innovación en ciencias de la vida a través de los tres verticales de Elitagen (gobernanza de datos e IA, producción científico-creativa, PMO de tecnología sanitaria). Delega el trabajo psicosocial/expresivo en los especialistas siguientes. |
-| `facilitador-expresivo` | Facilitador de terapia expresiva Funvepsiarte: diseño paso a paso de sesiones, talleres y ciclos, audio-a-metodología, registros de campo SMAPS. |
+| `coordinador-expresivo` | Agente principal. Entiende tu necesidad, resuelve o delega en los especialistas. |
+| `facilitador-expresivo` | Diseño paso a paso de sesiones, talleres y ciclos de terapia expresiva; audio-a-metodología; registros de campo SMAPS. |
 | `arquitecto-smaps` | Intervenciones psicosociales comunitarias sobre la pirámide IASC/MHPSS (SMAPS), con el resumen del manual OIM como fuente. |
-| `revisor-etico` | Revisión ética y claridad de rol: facilitación/bienestar vs. psicoterapia clínica regulada; consentimientos, avisos éticos, protocolos de derivación. |
+| `revisor-etico` | Revisión ética y claridad de rol: facilitación/bienestar vs. psicoterapia clínica regulada; documentos éticos. |
 
-### Skills (`/<nombre-de-skill>`)
+## Skills (`/<nombre>`)
 
 | Skill | Qué hace |
 | --- | --- |
-| `facilitacion-expresiva` | Protocolo completo del Gem: menú de bienvenida, recolección de una pregunta por vez, validación de entradas, diseño de sesión en 10 secciones, generación de documentos. Referencia: `references/registros-clinicos-campo.md`. |
-| `smaps-intervencion` | Arquitectura de intervenciones SMAPS: enrutado por perfil, reglas de caso activo, diseño en 6 bloques, matriz de 12 puntos. Referencia: `references/resumen-smaps-oim.md` (resumen OIM 2021). |
-| `limites-eticos` | Revisión ética de textos/audios/materiales; clasificación de riesgo; redacción de documentos éticos. |
-| `expediente-intervencion` | **Pipeline compuesto nuevo**: diseño + revisión ética + documentos operativos + indicadores de monitoreo en un solo expediente - el entregable integral que encadena las tres skills anteriores. |
-| `brand-kit` | Paleta oficial, uso de logos, tipografía, disciplina de tagline, cierre corporativo Funvepsiarte, regla de español sin anglicismos. |
-
-### Regla
-
-`rules/AGENTS.md` (siempre activa): voz de marca, disciplina multilingüe y
-guardarraíles de cumplimiento y ética - HIPAA, GDPR, HITECH, CCPA/CPRA,
-ISO/IEC 27001, Ley de IA de la UE, NIST AI RMF, ISO/IEC 42001, OCDE; sin
-citas fabricadas; la facilitación nunca se presenta como psicoterapia
-clínica.
+| `facilitacion-expresiva` | Menú de bienvenida, recolección de una pregunta por vez, validación de entradas, diseño en 10 secciones, generación de documentos. Referencia: `references/registros-clinicos-campo.md`. |
+| `smaps-intervencion` | Enrutado por perfil, reglas de caso activo, diseño en 6 bloques, matriz de 12 puntos. Referencia: `references/resumen-smaps-oim.md` (resumen OIM 2021). |
+| `limites-eticos` | Revisión ética de textos/audios/materiales; clasificación de riesgo; documentos éticos. |
+| `expediente-intervencion` | Pipeline compuesto: diseño + ética + documentos operativos + indicadores de monitoreo en un solo expediente. |
+| `brand-kit` | Identidad visual Funvepsiarte | Elitagen, cierre corporativo, español sin anglicismos. |
 
 ## Probar localmente
 
 ```bash
-agy plugin validate --strict ./elitagen-agent
-agy plugin install ./elitagen-agent
+agy plugin validate --strict ./funvepsiarte
+agy plugin install ./funvepsiarte
 
 # luego en el chat:
-/agents                    # elige elitagen-expert, facilitador-expresivo, ...
+/agents                    # elige coordinador-expresivo o un especialista
 /facilitacion-expresiva    # o entra directo a una skill
-/expediente-intervencion   # pipeline de intervención documentada completa
+/expediente-intervencion   # expediente completo
 ```
 
-O copia esta carpeta a `~/.gemini/config/plugins/elitagen-agent/` y reinicia
-la app.
-
-## Hoja de ruta
-
-- **Servidor MCP** (`mcp_config.json`) - búsqueda de literatura, tracker de
-  proyectos, CDN de activos de marca.
-- **Hooks de ciclo de vida** (`hooks.json`) - p. ej. un hook `Stop` que fuerce
-  la revisión ética (`limites-eticos`) antes de entregar documentos
-  terapéuticos.
-- **Más Gems** - los asistentes de referencia restantes se pueden portar como
-  skills/subagentes adicionales con el mismo patrón.
+O copia esta carpeta a `~/.gemini/config/plugins/funvepsiarte/` y reinicia la
+app.
 
 ## Requisitos
 

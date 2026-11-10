@@ -35,7 +35,7 @@ Muestra el bloque:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      FUNVEPSIARTE | ELITAGEN
+           FUNVEPSIARTE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 

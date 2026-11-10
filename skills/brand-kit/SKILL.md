@@ -1,99 +1,76 @@
 ---
 name: brand-kit
 description: >-
-  Aplica la identidad visual y la voz de Elitagen a cualquier entregable:
-  presentaciones, documentos, páginas web, guiones, one-pagers o
-  visualizaciones de datos. Úsala cuando el usuario pida algo "en marca",
-  material con marca, un artefacto para clientes, o mencione los
-  colores/logos/tagline de Elitagen. Incluye el cierre corporativo
-  Funvepsiarte | Elitagen. Se invoca con /brand-kit.
+  Identidad visual y cierre corporativo del asistente Funvepsiarte (con
+  crédito de Elitagen): paletas, logos, tipografía, bloque de cierre
+  FUNVEPSIARTE y regla de español sin anglicismos. Úsala cuando el usuario
+  pida un entregable visual o documento para mostrar a terceros, o pregunte
+  por colores, logos o la autoría del asistente. Se invoca con /brand-kit.
 ---
 
-# Kit de marca Elitagen
+# Identidad visual Funvepsiarte | Elitagen
 
-Carga esta skill antes de producir CUALQUIER entregable que un cliente o
-aliado de Elitagen pueda ver.
+Referencia para entregables visibles por terceros. La identidad principal del
+servicio es Funvepsiarte; Elitagen aparece como crédito de desarrollo.
 
-## 1. Paleta de colores (extraída de la marca oficial)
+## 1. Paleta Funvepsiarte (principal)
 
 | Rol | Hex | Uso |
 | --- | --- | --- |
-| Azul marino profundo | `#020345` | Ancla oscuro principal, titulares, lienzos oscuros |
-| Azul real | `#0C57A8` | Azul de marca, acentos clave, enlaces |
-| Azul acero | `#305090` | Estructura secundaria, bordes, gráficos |
-| Cian | `#31A9DC` | Acento de energía, énfasis de datos |
-| Cian cielo | `#63C6EB` | Degradados y acentos claros junto al cian |
-| Lavanda pálido | `#AEBAEF` | Acento claro, rellenos, fondos sutiles |
-| Hielo | `#C0D0F0` | Tinte de fondo suave |
-| Blanco | `#FFFFFF` | Espacio negativo, texto sobre oscuro |
+| Azul FVP | `#0133AB` | Titulares, estructura, enlaces |
+| Rojo FVP | `#CF142B` | Acento de énfasis, alertas cuidadas |
+| Amarillo FVP | `#FFCC00` | Acento cálido, resaltado, llamados a la acción |
+| Blanco | `#FFFFFF` | Fondos, espacio negativo |
 
-Los degradados de la marca se mueven *dentro* de una misma familia (p. ej.
-`#63C6EB -> #008CCB`), no entre tonos sin relación. Las interfaces oscuras se
-apoyan en azul marino profundo, no en negro puro.
+## 2. Paleta Elitagen (crédito y entregables técnicos)
 
-## 2. Logos
+| Rol | Hex |
+| --- | --- |
+| Azul marino profundo | `#020345` |
+| Azul real | `#0C57A8` |
+| Azul acero | `#305090` |
+| Cian | `#31A9DC` |
+| Cian cielo | `#63C6EB` |
+| Lavanda pálido | `#AEBAEF` |
+| Hielo | `#C0D0F0` |
 
-- Símbolo incluido: `${PLUGIN_ROOT}/assets/logo.png` - el molinete de cuatro
-  lóbulos de Elitagen sobre fondo transparente (1:1). Conserva su margen
-  transparente; nunca lo recortes, recolorees, deformes ni lo pongas sobre
-  imágenes cargadas.
-- Biblioteca completa de logos (lockups, banners, variantes monocromáticas)
-  en el repositorio del proyecto, carpeta de mercadeo
-  (`06_Logos ... Elitagen_Funvepsiarte`):
-  `main_logo.png` (fondos claros), `main_logo_dark.png` (variante sobre fondo
-  azul real oscuro), `mono_main_white_logo.png` (monocromo),
-  `*_banner_left_*` (lockups anchos), `elitagen_text_blue_font.svg`
-  (wordmark).
+Los degradados se mueven *dentro* de una misma familia. Las interfaces
+oscuras se apoyan en azul marino, no en negro puro.
 
-## 3. Tipografía y maquetación
+## 3. Logos
+
+- `${PLUGIN_ROOT}/assets/logo.svg` - wordmark Funvepsiarte (tricolor),
+  encuadrado 1:1 con margen transparente. Nunca lo recortes, recolorees ni
+  deformes.
+- `${PLUGIN_ROOT}/assets/logo.png` - símbolo Elitagen (molinete de cuatro
+  lóbulos, 1:1 transparente). Úsalo solo como marca de crédito ("desarrollado
+  por Elitagen") o co-marca técnica.
+- Fuentes: logos Elitagen en la carpeta de mercadeo del proyecto
+  (`06_Logos ... Elitagen_Funvepsiarte`); wordmark Funvepsiarte en
+  funvepsiarte.org.
+
+## 4. Tipografía y maquetación
 
 - Sans-serif geométrica moderna; abundante espacio en blanco, ornamentación
-  mínima. (La fuente exacta del sitio no está incluida; usa Inter o Helvetica
-  Neue por defecto en activos digitales derivados - confirma con el equipo
-  antes de imprimir.)
-- Ritmo de secciones del sitio: etiqueta superior -> titular de declaración
-  grande -> párrafo breve de apoyo. Bloques de capacidades numerados
-  (I, II, III).
-- Disciplina de tagline: **"Expert Minds. Intelligent Innovation."** y la
-  tríada **THINK. BUILD. EVOLVE.** Nunca alteres la redacción, la traducción
-  ni las mayúsculas.
+  mínima. (Usa Inter o Helvetica Neue por defecto en activos digitales -
+  confirma antes de imprimir.)
+- Ritmo de secciones: etiqueta superior -> titular de declaración grande ->
+  párrafo breve de apoyo.
 
-## 4. Lista de voz para entregables
+## 5. Voz
 
-1. Experto y directo - sin exageración, sin adjetivos de relleno.
-2. Listo para multilingüe - fraseo idiomático, no traducción literal. En
-   español, sin anglicismos.
-3. Consciente del cumplimiento - ver `rules/AGENTS.md`; incluye notas de
-   revisión cuando el contenido toque temas clínicos o datos de pacientes.
-4. Enfoque multidisciplinario - nombra las disciplinas que convergen en cada
-   solución.
+1. Empático, profesional, claro, humano, organizado y práctico.
+2. Idioma espejo del usuario, fraseo idiomático. En español, SIN anglicismos
+   ("aviso ético" o "descargo de responsabilidad", nunca "disclaimer").
+3. Límites éticos visibles: ver `rules/AGENTS.md` y la skill `limites-eticos`.
 
-## 5. Valores por defecto para entregables HTML/Markdown
+## 6. Cierre corporativo
 
-```css
-:root {
-  --elitagen-navy: #020345;
-  --elitagen-royal: #0C57A8;
-  --elitagen-steel: #305090;
-  --elitagen-cyan: #31A9DC;
-  --elitagen-sky: #63C6EB;
-  --elitagen-lavender: #AEBAEF;
-  --elitagen-ice: #C0D0F0;
-}
-```
-
-Titulares: azul marino profundo (o blanco sobre oscuro). Subrayados/botones
-de acento: cian. Texto de cuerpo: grises de la familia acero derivados de
-`#305090`.
-
-## 6. Cierre corporativo Funvepsiarte | Elitagen
-
-Los asistentes del ecosistema psicosocial (facilitación expresiva, SMAPS,
-límites éticos) cierran las interacciones con este bloque centrado:
+Las interacciones del asistente cierran con este bloque centrado:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      FUNVEPSIARTE | ELITAGEN
+           FUNVEPSIARTE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Gracias por compartir este proceso terapéutico y creativo y por confiar en
@@ -104,13 +81,11 @@ Espero que esta estructura contribuya a crear experiencias:
 - seguras
 - emocionalmente significativas
 
-🌐 www.elitagen.com  / 📧 info@elitagen.com
-🌐 funvepsiarte.org  / 📧 hola@funvepsiarte.org
+🌐 www.funvepsiarte.org  / 📧 hola@funvepsiarte.org
+
+Desarrollado por Elitagen · www.elitagen.com
 ```
 
 Variante psicosocial del texto de cierre: "Gracias por compartir este proceso
 psicosocial y creativo. Espero que contribuya a experiencias claras, seguras
 y significativas."
-
-En español NUNCA uses anglicismos: "aviso ético" o "descargo de
-responsabilidad", no "disclaimer".
